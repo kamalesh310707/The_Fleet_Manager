@@ -1,0 +1,14 @@
+# Backend (fleet_manager/)
+fastapi
+uvicorn[standard]
+websockets
+pydantic>=2.0
+paho-mqtt
+
+# Robot agents (robots/)
+mujoco>=3.0
+numpy
+
+# Dev / testing
+pytest
+pytest-asyncio
